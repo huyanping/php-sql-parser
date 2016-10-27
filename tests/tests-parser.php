@@ -3,7 +3,7 @@
 /**
  * execute all tests
  */
-require dirname(__FILE__) . '/../vendor/autoload.php';
+require dirname(__DIR__) . '/vendor/autoload.php';
 $start = microtime(true);
 
 require_once(dirname(__FILE__) . '/tests/parser/aliases.php');
