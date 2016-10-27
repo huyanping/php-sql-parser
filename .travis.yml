@@ -7,7 +7,7 @@ php:
   - 5.6
 
 script:
-  - php tests/test-creator.php && php tests/test-parser.php
+  - php tests/tests-creator.php && php tests/tests-parser.php
 
 after_script:
   - wget https://scrutinizer-ci.com/ocular.phar
