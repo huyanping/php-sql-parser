@@ -3,7 +3,7 @@
 /**
  * execute all tests
  */
-require '../vendor/autoload.php';
+require dirname(__FILE__) . '/../vendor/autoload.php';
 $start = microtime(true);
 require_once(dirname(__FILE__) . '/tests/creator/asc.php');
 require_once(dirname(__FILE__) . '/tests/creator/count_distinct.php');
